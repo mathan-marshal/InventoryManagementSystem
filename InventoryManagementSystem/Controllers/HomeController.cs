@@ -33,5 +33,12 @@ namespace InventoryManagementSystem.Controllers
 
             return View();
         }
+
+        public ActionResult Version2()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
